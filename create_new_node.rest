@@ -19,3 +19,6 @@ Content-Type: application/json
       "prix": "11.99",
       "quantite": "10"
 }
+
+###
+DELETE http://localhost:3001/produits/4
