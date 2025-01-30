@@ -1,0 +1,21 @@
+GET http://localhost:3001/produits/
+
+###
+PUT http://localhost:3001/produits/1
+Content-Type: application/json
+
+{
+      "name": "the pouet matcha", 
+      "prix": "11.99",
+      "quantite": "10"
+}
+
+###
+POST http://localhost:3001/produits/
+Content-Type: application/json
+
+{
+      "name": "new produit", 
+      "prix": "11.99",
+      "quantite": "10"
+}
